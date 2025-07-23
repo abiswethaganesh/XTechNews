@@ -1,0 +1,45 @@
+name: flutter_application_1
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.4.0
+  english_words: ^4.0.0
+  provider: ^6.1.5
+
+  # Firebase (Compatible Versions)
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.4
+
+  url_launcher: ^6.2.5
+  google_mlkit_face_detection: ^0.13.1
+  google_mlkit_commons: ^0.11.0
+  path_provider: ^2.0.15
+  image: ^4.5.4
+  deep_pick: ^1.1.0
+
+  tflite_flutter: ^0.10.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/output_model.tflite
+    - assets/bg.jpeg
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.jpg"  

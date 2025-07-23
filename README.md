@@ -1,29 +1,16 @@
-# XTechNews
-A stealthy news app with a hidden chat feature — accessible only through secure login. For others, it’s just headlines.
+# flutter_application_1
 
+A new Flutter project.
 
-📰 Hidden Chat Tech News App
-A sleek Flutter app built to deliver the latest tech news, while secretly hosting a chat feature hidden behind Google authentication.
-To the world, it's just a news reader — but for a few, it’s a backdoor to real-time conversations.
+## Getting Started
 
-✨ Features
-🧠 Browse curated technology news
+This project is a starting point for a Flutter application.
 
-🔐 Hidden chat system, accessible only after Google Sign-In
+A few resources to get you started if this is your first Flutter project:
 
-👥 Private messaging for authorized users
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-🎭 Dual identity: News for the public, chat for the insiders
-
-🛠️ Tech Stack
-Framework: Flutter (Dart)
-
-Backend: Firebase Firestore
-
-Authentication: Google Sign-In (Firebase Auth)
-
-News Source: (e.g., NewsAPI / Custom feed)
-
-Notes
-This project is intended for private use. Only authorized users can access chat functionality.
-The app is not publicly distributed or open-source at this time.
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
